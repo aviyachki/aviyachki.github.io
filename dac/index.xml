@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DAC on ODEF</title>
+    <link>https://www.odef.wiki/dac/</link>
+    <description>Recent content in DAC on ODEF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.odef.wiki/dac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Templates</title>
+      <link>https://www.odef.wiki/dac/odef-templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.odef.wiki/dac/odef-templates/</guid>
+      <description>Template Purpose ODEF provides two templates for documenting detections — yaml and markdown. Each for different purpose:
+Yaml is used due to its data serialization and wide programming language compatibility. It is used for automations and integrations with other systems. It stores components like the queries, baseline, schedule and others. It is a stepping stone for Detection-as-Code capability.
+Markdown is used for detection documentation due to its readability and simplicity. Especially helpful for knowledge sharing when used in conjunction with platforms like GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>

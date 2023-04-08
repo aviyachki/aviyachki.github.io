@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Tags - ODEF</title>
+    <title>Templates - ODEF</title>
 
     
     <link href="/css/nucleus.css?1680962101" rel="stylesheet">
@@ -37,7 +37,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tags/">
+  <body class="" data-url="/dac/odef-templates/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -342,7 +342,7 @@
   
     
     <li data-nav-id="/dac/" title="DAC" class="dd-item
-        
+        parent
         
         
         ">
@@ -370,7 +370,7 @@
  
   
     
-      <li data-nav-id="/dac/odef-templates/" title="Templates" class="dd-item ">
+      <li data-nav-id="/dac/odef-templates/" title="Templates" class="dd-item active">
         <a href="/dac/odef-templates/">
         Templates
         <i class="fas fa-check read-icon"></i>
@@ -445,7 +445,13 @@
             
           
           
-            <a href='/'>Home</a> > Tags
+            
+            
+          
+          
+            <a href='/'>Home</a> > <a href='/dac/'>DAC</a> > Templates
+          
+        
           
         
           
@@ -456,7 +462,15 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#template-purpose">Template Purpose</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -472,24 +486,26 @@
           
             <h1>
               
-                tag ::
-              
-              Tags
+              Templates
             </h1>
           
 
         
 
 
-
-
-
+<h3 id="template-purpose">Template Purpose</h3>
+<p>ODEF provides two templates for documenting detections — yaml and markdown. Each for different purpose:</p>
 <ul>
-	
+<li>
+<p><strong>Yaml</strong> is used due to its data serialization and wide programming language compatibility. It is used for automations and integrations with other systems. It stores components like the queries, baseline, schedule and others. It is a stepping stone for Detection-as-Code capability.</p>
+</li>
+<li>
+<p><strong>Markdown</strong> is used for detection documentation due to its readability and simplicity. Especially helpful for knowledge sharing when used in conjunction with platforms like GitHub. The purpose of the file is to house all details related to the detection.</p>
+</li>
 </ul>
 
 
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
@@ -689,6 +705,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -702,6 +719,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -724,6 +742,8 @@
 
 	 
 	 
+		
+			<a class="nav nav-prev" href="/dac/" title="DAC"> <i class="fa fa-chevron-left"></i></a>
 		
 		
 			<a class="nav nav-next" href="/odef/" title="The Framework" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
@@ -758,3 +778,4 @@
 
   </body>
 </html>
+

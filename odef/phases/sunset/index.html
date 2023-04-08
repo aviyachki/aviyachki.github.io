@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Tags - ODEF</title>
+    <title>Sunset - ODEF</title>
 
     
     <link href="/css/nucleus.css?1680962101" rel="stylesheet">
@@ -37,7 +37,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/tags/">
+  <body class="" data-url="/odef/phases/sunset/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -83,7 +83,7 @@
   
     
     <li data-nav-id="/odef/" title="The Framework" class="dd-item
-        
+        parent
         
         
         ">
@@ -156,7 +156,7 @@
   
     
     <li data-nav-id="/odef/phases/" title="Phases" class="dd-item
-        
+        parent
         
         
         ">
@@ -226,7 +226,7 @@
  
   
     
-      <li data-nav-id="/odef/phases/sunset/" title="Sunset" class="dd-item ">
+      <li data-nav-id="/odef/phases/sunset/" title="Sunset" class="dd-item active">
         <a href="/odef/phases/sunset/">
         Sunset
         <i class="fas fa-check read-icon"></i>
@@ -445,7 +445,19 @@
             
           
           
-            <a href='/'>Home</a> > Tags
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Home</a> > <a href='/odef/'>The Framework</a> > <a href='/odef/phases/'>Phases</a> > Sunset
+          
+        
+          
+        
           
         
           
@@ -456,7 +468,16 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#phase-3-sunset-">Phase 3️⃣ Sunset 🌆</a></li>
+        <li><a href="#sunset-process-flow">Sunset Process Flow</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -472,24 +493,59 @@
           
             <h1>
               
-                tag ::
-              
-              Tags
+              Sunset
             </h1>
           
 
         
 
 
-
-
-
+<h3 id="phase-3-sunset-">Phase 3️⃣ Sunset 🌆</h3>
+<p align="justify">
+During the “Sunset” phase the detection is taken out of commission. The phase wants to ensure that resources are not spent for outdated detections that are no longer applicable and at the same time leave sufficient trace of the existence of the detection.
+</p>
+<p>High level goals for the Sunset phase:</p>
 <ul>
-	
+  <li>Decommission the detection and leave it in a state that it can be resumed anytime
+  <li>Preserve knowledge
 </ul>
+<table>
+<thead>
+  <tr>
+    <th>Functions</th>
+    <th>Goal</th>
+    <th>Description</th>
+    <th>Guidelines</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="2"><b>Decommission</b></td>
+    <td>Decommission the detection</td>
+    <td>The goal is to decommission the detection by following process that provides visibility </td>
+    <td>In order to decommission a detection simply change the status field to "Sunset" in the .yml file. Assuming your devops pipeline is configured correctly, this should effectively disable the detections and prevent it from running.
+    <br>Note: Do not remove anything from the repository as detections can be reused in future. </td>
+  </tr>
+  <tr>
+    <td>Knowledge base update</td>
+    <td>Create an adequate indication in the KB document that the detection is no longer active and socialize the change with your security teams.</td>
+    <td>Update Mitre coverage map by removing the coverage that the detection was providing</td>
+  </tr>
+</tbody>
+</table>
+<h3 id="sunset-process-flow">Sunset Process Flow</h3>
+
+<div class="mermaid" align="center">
+graph TD;
+Review1[Review completed] --> Review2;
+Review2{detection ready to decom} -->|no| End[end];
+Review2{detection ready to decom} -->|yes| Preserve(Preserve knowledge);
+Preserve --> Decommission(Decommission the detection);
+</div>
 
 
-<footer class=" footline" >
+
+<footer class="footline">
 	
 </footer>
 
@@ -524,8 +580,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -541,6 +595,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -574,6 +631,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -581,6 +639,25 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -603,21 +680,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -640,6 +702,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -725,8 +790,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/odef/phases/midday/" title="Midday"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/odef/" title="The Framework" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/demm/" title="DEMM" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -758,3 +825,4 @@
 
   </body>
 </html>
+
