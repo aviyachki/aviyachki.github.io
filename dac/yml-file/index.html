@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>DEMM - ODEF</title>
+    <title>The yaml file - ODEF</title>
 
     
     <link href="/css/nucleus.css?1681063769" rel="stylesheet">
@@ -37,7 +37,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/demm/">
+  <body class="" data-url="/dac/yml-file/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -265,7 +265,7 @@
     
     <li data-nav-id="/demm/" title="DEMM" class="dd-item
         
-        active
+        
         
         ">
       <a href="/demm/">
@@ -342,7 +342,7 @@
   
     
     <li data-nav-id="/dac/" title="DAC" class="dd-item
-        
+        parent
         
         
         ">
@@ -391,7 +391,7 @@
  
   
     
-      <li data-nav-id="/dac/yml-file/" title="The yaml file" class="dd-item ">
+      <li data-nav-id="/dac/yml-file/" title="The yaml file" class="dd-item active">
         <a href="/dac/yml-file/">
         The yaml file
         <i class="fas fa-check read-icon"></i>
@@ -511,6 +511,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -521,7 +523,13 @@
             
           
           
-            <a href='/'>Home</a> > DEMM
+            
+            
+          
+          
+            <a href='/'>Home</a> > <a href='/dac/'>DAC</a> > The yaml file
+          
+        
           
         
           
@@ -530,6 +538,21 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#yaml-file-purpose">Yaml file purpose</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
@@ -537,29 +560,45 @@
         
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              The yaml file
+            </h1>
           
 
         
 
 
+<h3 id="yaml-file-purpose">Yaml file purpose</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">status</span>: <span style="color:#e6db74">&#34;{{ status }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">created_date</span>: <span style="color:#e6db74">&#34;{{ created_date }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">last_updated_date</span>: 
+</span></span><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;{{ detection_name }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">query</span>: <span style="color:#e6db74">&#34;{{ query }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">author</span>: <span style="color:#e6db74">&#34;{{ detection_author }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">schedule</span>: <span style="color:#e6db74">&#34;{{ schedule }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">baseline</span>: <span style="color:#e6db74">&#34;{{ baseline }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">visualization</span>: <span style="color:#e6db74">&#34;{{ visualization }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">event_limit</span>: <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">data_source</span>: <span style="color:#e6db74">&#34;{{ data_source }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">data_location</span>: <span style="color:#e6db74">&#34;{{ data_source }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">tactic</span>: <span style="color:#e6db74">&#34;{{ tactic }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">mitre_id</span>: <span style="color:#e6db74">&#34;{{ mitre_id }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">mitre_url</span>: <span style="color:#e6db74">&#34;{{ mitre_url }}&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">incident</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">severity</span>: <span style="color:#e6db74">&#34;numeric, 0-unknown, 0.5 - informational, 1-low,2-medium,3-high,4-critical&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">type</span>: <span style="color:#e6db74">&#39;Security Incident&#39;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#39;string, name of the incident&#39;</span> 
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">description: &#39;inc descr</span>: <span style="color:#ae81ff">This detection is monitoring for changes in any of X&#39;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">sla: &#39;integer - number of minutes added to incident create time(incident sla). example sla</span>: <span style="color:#ae81ff">1440</span> <span style="color:#ae81ff">this means 24h sla&#39;</span>
+</span></span></code></pre></div>
 
-	<h3 id="chapter-2">Chapter 2</h3>
-<h2 id="detection-engineering-maturity-model">Detection Engineering Maturity Model</h2>
-<p>Working with the Detection Engineering Maturity Model</p>
-
-
-
-
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
-        
-            </div> 
         
         </div>
         
@@ -708,58 +747,6 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                 
                 
 
@@ -807,6 +794,62 @@
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -844,10 +887,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/odef/phases/sunset/" title="Sunset"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/dac/odef-templates/" title="Templates"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/demm/intro/" title="Maturity Model" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/knowledge/" title="Knowledge management" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -879,3 +922,4 @@
 
   </body>
 </html>
+

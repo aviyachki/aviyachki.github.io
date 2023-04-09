@@ -13,6 +13,8 @@
   </url><url>
     <loc>https://www.odef.wiki/demm/operational-maturity/</loc>
   </url><url>
+    <loc>https://www.odef.wiki/knowledge/doc-template/</loc>
+  </url><url>
     <loc>https://www.odef.wiki/odef/framework-core/</loc>
   </url><url>
     <loc>https://www.odef.wiki/odef/phases/sunrise/</loc>
@@ -24,6 +26,10 @@
     <loc>https://www.odef.wiki/dac/</loc>
   </url><url>
     <loc>https://www.odef.wiki/dac/odef-templates/</loc>
+  </url><url>
+    <loc>https://www.odef.wiki/dac/yml-file/</loc>
+  </url><url>
+    <loc>https://www.odef.wiki/knowledge/</loc>
   </url><url>
     <loc>https://www.odef.wiki/</loc>
     <lastmod>2023-03-27T21:29:13-04:00</lastmod>

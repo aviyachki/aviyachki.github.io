@@ -13,8 +13,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.odef.wiki/odef/introduction/</guid>
-      <description>The Framework focuses on using business goals and outcomes to drive and guide cybersecurity activities to deliver detections, improve visibility, minimize vendor dependencies and ultimately improve the organization security posture. The Framework provides the principles that guide efficient and effective detection engineering practices and also provides three maturity levels to measure the organization performance.
-Each phase of the framework’s core aims to describe the detection lifecycle and uses phase functions to focus the effort of the detection engineer and guide them through the process.</description>
+      <description>Purpose ODEF enables organization to create and apply principles and best practices for detection engineering. Utilizing it leads to service and process improvements and maturity.
+The Framework focuses on using business goals and outcomes to drive and guide cybersecurity activities to deliver detections, improve visibility, minimize vendor dependencies and ultimately improve the organization security posture. The Framework provides the principles that guide efficient and effective detection engineering practices and also provides three maturity levels to measure the organization performance.</description>
     </item>
     
     <item>
