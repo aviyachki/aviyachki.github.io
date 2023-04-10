@@ -1,3 +1,7 @@
 [submodule "themes/hugo-theme-learn"]
 	path = themes/hugo-theme-learn
 	url = git@github.com:matcornic/hugo-theme-learn.git
+
+[submodule "public/odef/themes/hugo-theme-learn"]
+	path = public/odef/themes/hugo-theme-learn
+	url = git@github.com:matcornic/hugo-theme-learn.git
