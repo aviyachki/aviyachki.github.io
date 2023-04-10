@@ -6,7 +6,7 @@ pre = "<b>2. </b>"
 draft = false
 +++
 
-### Chapter 222
+### Chapter 2
 
 ## Detection Engineering Maturity Model
 

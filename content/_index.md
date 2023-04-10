@@ -11,7 +11,7 @@ draft: false
 
 ODEF is open sourced framework and can be found [here](https://github.com/wealthsimple/odef)
 
-## Table of Content
+<!-- ## Table of Content
 
 * **[The Framework]({{< ref "ODEF" >}})**
 * **[Phases]({{< ref "Phases" >}})**
@@ -20,7 +20,7 @@ ODEF is open sourced framework and can be found [here](https://github.com/wealth
 * **[Sunset]({{< ref "Sunset" >}})**
 * **[DEMM]({{< ref "DEMM" >}})**
 * **[DAC]({{< ref "DAC" >}})**
-* **[Knowledge Management]({{< ref "Knowledge" >}})**
+* **[Knowledge Management]({{< ref "Knowledge" >}})** -->
 
 ## License
 
