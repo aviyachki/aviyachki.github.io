@@ -5,23 +5,12 @@ draft: false
 ---
 ## Welcome
 
-✨ ODEF is a detection engineering framework that helps with building detection engineering capabilities ✨
+✨ Welcome to ODEF - the Open Detection Engineering Framework. A toolkit designed to elevate the craft of detection engineering. ✨
 
-## Resources
+## About ODEF
 
-ODEF is open sourced framework and can be found [here](https://github.com/wealthsimple/odef)
-
-<!-- ## Table of Content
-
-* **[The Framework]({{< ref "ODEF" >}})**
-* **[Phases]({{< ref "Phases" >}})**
-* **[Sunrise]({{< ref "Sunrise" >}})**
-* **[Midday]({{< ref "Midday" >}})**
-* **[Sunset]({{< ref "Sunset" >}})**
-* **[DEMM]({{< ref "DEMM" >}})**
-* **[DAC]({{< ref "DAC" >}})**
-* **[Knowledge Management]({{< ref "Knowledge" >}})** -->
+✨ ODEF is an open-source framework dedicated to enhancing and standardizing detection engineering processes. Explore the framework on [GitHub](https://github.com/wealthsimple/odef) ✨
 
 ## License
 
-Licensed under the MIT License. Copyright (c) 2023 Atanas Viyachki.
+ODEF is made available under the MIT License. Copyright (c) 2023 by Atanas Viyachki

@@ -7,24 +7,24 @@ draft = false
 
 ## Purpose
 
-ODEF enables organization to create and apply principles and best practices for detection engineering.
-Utilizing it leads to service and process improvements and maturity.
+ODEF enables organization to establish and apply fundamental principles and best practices in detection engineering.
+Adopting ODEF catalyzes service enhancement, process refinement, and maturity in cybersecurity practices.
 
-The Framework focuses on using business goals and outcomes to drive and guide cybersecurity activities to deliver detections, improve visibility, minimize vendor dependencies and ultimately improve the organization security posture. The Framework provides the principles that guide efficient and effective detection engineering practices and also provides three maturity levels to measure the organization performance.
+The framework is strategically oriented around leveraging business objectives to steer cybersecurity efforts. It enables the creation of robust detection systems, enhances visibility, reduces reliance on vendors, and, most importantly, strengthens an organization's overall security stance. ODEF not only articulates the principles for proficient detection engineering but also introduces a three-tiered maturity model for assessing organizational performance.
 
-Each phase of the framework’s core aims to describe the detection lifecycle and uses phase functions to focus the effort of the detection engineer and guide them through the process.
-The three maturity levels provide a high level mechanism for organizations to view and evaluate their approach to detection engineering and focus on areas of improvement.
+Each phase within the framework's core is meticulously designed to outline the detection lifecycle, directing the detection engineer's efforts with focused phase functions and steering them through the entire process.
+The maturity levels serve as benchmarks, offering organizations a macroscopic view of their detection engineering strategy and pinpointing potential areas for enhancement.
 
-## High level goals
+## High-Level Goals
 
-The framework high level goals are to:
+The overarching ambitions of the framework are to:
 
-* Provide guidance on how to be systematic, repeatable and predictable when building hunts and detections
-* Ensure that high visibility is achieved throughout the organization
-* Convert insights to retainable and actionable Knowledge and promote knowledge sharing
-* Introduce continuous vigilance
-* Introduce detection validation through testing
-* Facilitate a knowledge driven environment
+* Establish a methodical, replicable, and predictable approach for developing hunts and detections.
+* Achieve extensive organizational visibility.
+* Transform insights into sustainable, actionable knowledge while fostering a culture of information sharing.
+* Promote persistent vigilance in detection practices.
+* Validate detections rigorously through systematic testing.
+* Cultivate an environment where knowledge is the main driver of security initiatives.
 
 ## Framework Mindmap
 
