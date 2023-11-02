@@ -6,4 +6,4 @@ draft: false
 
 ## Intro
 
-**ODEF** is the first framework that defines a *detection lifecycle*. With three phases — **sunrise**, **midday** and **sunset** ODEF covers the life of a detection from inception to decommissioning. Each phase has corresponding functions, goals and guidelines.
+**ODEF** pioneers the concept of a *detection lifecycle*, comprehensively encapsulating the journey of a detection mechanism from creation to retirement. It's structured into three distinct phases: **Sunrise**, **Midday**, and **Sunset**. This tri-phase approach ensures thorough coverage for each stage of a detection's active life. Corresponding to each phase are specific functions, goals, and guidelines that lay the groundwork for effective and efficient detection engineering.
