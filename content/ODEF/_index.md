@@ -10,4 +10,4 @@ draft = false
 
 ## Open Detection Engineering Framework
 
-A detection engineering story
+A detection engineering story...

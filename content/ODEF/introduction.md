@@ -4,7 +4,6 @@ weight = 15
 draft = false
 +++
 
-
 ## Purpose
 
 ODEF enables organization to establish and apply fundamental principles and best practices in detection engineering.
