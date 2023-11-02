@@ -13,4 +13,4 @@ draft: false
 
 ## License
 
-✨ ODEF is made available under the MIT License. Copyright (c) 2023 by Atanas Viyachki ✨ 
+✨ ODEF is made available under the MIT License. Copyright (c) 2023 by Atanas Viyachki ✨
