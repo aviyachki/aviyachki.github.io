@@ -5,7 +5,7 @@ draft: false
 ---
 ## Welcome
 
-:mega: Welcome to ODEF - the Open Detection Engineering Framework. A toolkit designed to elevate the craft of detection engineering :mega:
+✨ Welcome to ODEF - the Open Detection Engineering Framework. A toolkit designed to elevate the craft of detection engineering ✨ 
 
 ## About ODEF
 
@@ -13,4 +13,4 @@ draft: false
 
 ## License
 
-:scroll: ODEF is made available under the MIT License. Copyright (c) 2023 by Atanas Viyachki :scroll:
+✨ ODEF is made available under the MIT License. Copyright (c) 2023 by Atanas Viyachki ✨ 
