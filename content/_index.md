@@ -9,7 +9,7 @@ draft: false
 
 ## About ODEF
 
-✨ ODEF is an open-source framework dedicated to enhancing and standardizing detection engineering processes. Explore the framework on [GitHub](https://github.com/wealthsimple/odef) ✨
+:smile: ODEF is an open-source framework dedicated to enhancing and standardizing detection engineering processes. Explore the framework on [GitHub](https://github.com/wealthsimple/odef) ✨
 
 ## License
 
