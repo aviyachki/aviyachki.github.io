@@ -49,10 +49,10 @@ Sunrise is the first phase of the detection lifecycle. It marks the inception, d
 </td>
   </tr>
   <tr>
-    <td>  <b>Prioritize</b></td>
-    <td>  Detection engineering work has to be prioritized and tracked. Work prioritization can be based on urgency and priority. Backlog of detections and security posture activities is desirable and recommended.
+    <td>Prioritize</td>
+    <td>Detection engineering work has to be prioritized and tracked. Work prioritization can be based on urgency and priority. Backlog of detections and security posture activities is desirable and recommended.
 </td>
-    <td>  Prioritization criteria:
+    <td>Prioritization criteria:
 
 - Criticality of the system
 - Highest level of threat to the organization
